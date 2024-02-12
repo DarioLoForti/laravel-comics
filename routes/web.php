@@ -31,3 +31,8 @@ Route::get('/series', function () {
     $series = config('series');
     return view('series', compact('series'));
 })->name('series');
+
+Route::get('/games', function () {
+    $games = config('games');
+    return view('games', compact('games'));
+})->name('games');

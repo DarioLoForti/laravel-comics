@@ -24,7 +24,8 @@
                             href="{{ route('series') }}">Tv</a>
                     </li>
                     <li>
-                        <a class="{{ Route::currentRoutename() === 'games' ? 'navtext' : '' }}" href="#">Games</a>
+                        <a class="{{ Route::currentRoutename() === 'games' ? 'navtext' : '' }}"
+                            href="{{ route('games') }}">Games</a>
                     </li>
                     <li>
                         <a class="{{ Route::currentRoutename() === 'cOllectibles' ? 'navtext' : '' }}"
