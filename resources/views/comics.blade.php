@@ -24,11 +24,12 @@
         </div>
         <div class="container">
             <div class="row">
+                <button class="btn-top">current series</button>
                 <div class="col-12">
                     <div class="comic-content">
                         @foreach ($comics as $comic)
                             <div class="card">
-                                <img :src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+                                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
                                 <h4> {{ $comic['series'] }}</h4>
                             </div>
                         @endforeach
