@@ -30,7 +30,7 @@
                         @foreach ($comics as $comic)
                             <div class="card">
                                 <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
-                                <h4> {{ $comic['series'] }}</h4>
+                                <h5> {{ $comic['series'] }}</h5>
                             </div>
                         @endforeach
                     </div>

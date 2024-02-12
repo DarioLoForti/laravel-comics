@@ -8,8 +8,8 @@
             <div class="menu">
                 <ul class="list-unstyled d-flex">
                     <li>
-                        <a class="{{ Route::currentRoutename() === 'characters' ? 'navtext' : '' }}"
-                            href="#">Characters</a>
+                        <a class="{{ Route::currentRoutename() === 'home' ? 'navtext' : '' }}"
+                            href="{{ route('home') }}">Characters</a>
                     </li>
                     <li>
                         <a class="{{ Route::currentRoutename() === 'comics' ? 'navtext' : '' }}"
