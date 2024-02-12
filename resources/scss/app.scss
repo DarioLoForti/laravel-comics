@@ -1,1 +1,28 @@
 @import '~bootstrap/scss/bootstrap';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    .navbar{
+        justify-content: space-around;
+    }
+    ul li{
+        padding: 0 10px;
+    }
+    ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: gray;
+    }
+
+    .navtext{
+        font-weight: bold;
+        color: black;
+    }
+    .navtext:hover{
+        background-color: #5382F9;
+    }
+}
