@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+// HEADER
+
 header{
     .navbar{
         justify-content: space-around;
@@ -26,6 +29,64 @@ header{
         background-color: #5382F9;
     }
 }
+
+// MAIN
+
+main{
+    background-color:#1C1C1C ;
+
+    .jumbo{
+        height: 400px;
+        background-image: url(../img/jumbotron.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    .comic-content{    
+        display: flex;
+        flex-wrap: wrap;
+
+        
+    }
+
+    .card{
+        width: calc(100% / 6 - 20px) ;
+        height: 200px;
+        margin: 10px;
+        margin-bottom: 30px;
+        padding: 10px;
+    
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        h4{
+            margin-top: 10px;
+            color: white;
+            text-transform: uppercase;
+        }
+    }
+    button{
+        background-color: #5382F9;
+        color: white;
+        border-style: none;
+        padding: 15px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-left: 20px;
+        
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+}
+
+
+
+// FOOTER
 
 footer{
     position: relative;
@@ -112,68 +173,4 @@ footer{
            }
         }
                     
-    // .content{
-    //     display: flex;
-    //     justify-content: space-between;
-    //     align-items: center;
-        
-    //     height: 75px;
-    //     width: 100%;
-        
-    // }
-    //         button{
-    //             border: 1px solid #5382F9;
-    //             color: white;
-    //             background: none;
-    //             font-size: 20px;
-    //             height: 50%;
-    //         }
-    
-    //        ul{
-    //         list-style: none;
-    //         display: flex;
-    
-    //             li{
-    //                 max-width: 60px;
-    //                 padding: 20px;
-    //             }
-    //        }
-    
-           
-    //        .bg{
-    //            width: 100%;
-    //            background-color: #5382F9;
-    //         }
-    //         .bg-footer{
-    //             background-color: #1C1C1C;
-            
-    
-    //     // .container{
-    //     //     display: flex;
-    //     //     justify-content: space-between;
-    //     //     height: 150px;
-            
-    
-    //             .content{
-    //                 display: flex;
-    //                 justify-content: space-between;
-    //                 align-items: center;
-    //                 width: 100%;
-    
-    //                 img{
-                       
-    //                     height: 70%;
-    //                     padding: 30px 20px;
-    //                     margin: 0px 20px;
-    //                 }
-        
-    //                 h2{
-    //                     color: white;
-    //                     font-weight: 500;
-    //                     font-size: 14px;
-    //                     text-transform: uppercase;
-    //                 }
-    //             }
-    
-    //     }
 }

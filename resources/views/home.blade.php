@@ -20,6 +20,8 @@
     @include('partials.header')
 
     <main>
+        <div class="jumbo">
+        </div>
 
     </main>
 

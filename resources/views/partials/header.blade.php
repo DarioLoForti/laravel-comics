@@ -8,39 +8,39 @@
             <div class="menu">
                 <ul class="list-unstyled d-flex">
                     <li>
-                        <a class="{{ Route::currentRoutename() === 'Characters' ? 'navtext' : '' }}"
+                        <a class="{{ Route::currentRoutename() === 'characters' ? 'navtext' : '' }}"
                             href="#">Characters</a>
                     </li>
                     <li>
-                        <a class="{{ Route::currentRoutename() === 'Comics' ? 'navtext' : '' }}"
-                            href="#">Comics</a>
+                        <a class="{{ Route::currentRoutename() === 'comics' ? 'navtext' : '' }}"
+                            href="{{ route('comics') }}">Comics</a>
                     </li>
                     <li>
-                        <a class="{{ Route::currentRoutename() === 'Movies' ? 'navtext' : '' }}"
+                        <a class="{{ Route::currentRoutename() === 'movies' ? 'navtext' : '' }}"
                             href="#">Movies</a>
                     </li>
                     <li>
-                        <a class="{{ Route::currentRoutename() === 'Tv' ? 'navtext' : '' }}" href="#">Tv</a>
+                        <a class="{{ Route::currentRoutename() === 'tv' ? 'navtext' : '' }}" href="#">Tv</a>
                     </li>
                     <li>
-                        <a class="{{ Route::currentRoutename() === 'Games' ? 'navtext' : '' }}" href="#">Games</a>
+                        <a class="{{ Route::currentRoutename() === 'games' ? 'navtext' : '' }}" href="#">Games</a>
                     </li>
                     <li>
-                        <a class="{{ Route::currentRoutename() === 'COllectibles' ? 'navtext' : '' }}"
+                        <a class="{{ Route::currentRoutename() === 'cOllectibles' ? 'navtext' : '' }}"
                             href="#">COllectibles</a>
                     </li>
                     <li>
-                        <a class="{{ Route::currentRoutename() === 'Videos' ? 'navtext' : '' }}"
+                        <a class="{{ Route::currentRoutename() === 'videos' ? 'navtext' : '' }}"
                             href="#">Videos</a>
                     </li>
                     <li>
-                        <a class="{{ Route::currentRoutename() === 'Fans' ? 'navtext' : '' }}" href="#">Fans</a>
+                        <a class="{{ Route::currentRoutename() === 'fans' ? 'navtext' : '' }}" href="#">Fans</a>
                     </li>
                     <li>
-                        <a class="{{ Route::currentRoutename() === 'News' ? 'navtext' : '' }}" href="#">News</a>
+                        <a class="{{ Route::currentRoutename() === 'news' ? 'navtext' : '' }}" href="#">News</a>
                     </li>
                     <li>
-                        <a class="{{ Route::currentRoutename() === 'Shop' ? 'navtext' : '' }}" href="#">Shop</a>
+                        <a class="{{ Route::currentRoutename() === 'shop' ? 'navtext' : '' }}" href="#">Shop</a>
                     </li>
                 </ul>
             </div>
