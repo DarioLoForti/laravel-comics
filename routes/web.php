@@ -26,3 +26,8 @@ Route::get('/movies', function () {
     $movies = config('movies');
     return view('movies', compact('movies'));
 })->name('movies');
+
+Route::get('/series', function () {
+    $series = config('series');
+    return view('series', compact('series'));
+})->name('series');
