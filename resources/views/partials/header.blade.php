@@ -17,7 +17,7 @@
                     </li>
                     <li>
                         <a class="{{ Route::currentRoutename() === 'movies' ? 'navtext' : '' }}"
-                            href="#">Movies</a>
+                            href="{{ route('movies') }}">Movies</a>
                     </li>
                     <li>
                         <a class="{{ Route::currentRoutename() === 'tv' ? 'navtext' : '' }}" href="#">Tv</a>
