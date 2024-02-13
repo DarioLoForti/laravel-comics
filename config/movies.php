@@ -2,7 +2,7 @@
 
 return [
     [
-
+        "id" => 1,
         "title" => "Guardians of the Galaxy Vol. 3",
         "release_date" => "2020-05-01",
         "poster_path" => "https://image.tmdb.org/t/p/w500/ldoY4fTZkGISMidNw60GHoNdgP8.jpg",
@@ -10,7 +10,7 @@ return [
 
     ],
     [
-
+        "id" => 2,
         "title" => "Transformers 7",
         "release_date" => "2019-06-26",
         "poster_path" => "https://image.tmdb.org/t/p/w500/432BowXw7a4fWXSONxBaFKqvW4f.jpg",
@@ -18,7 +18,7 @@ return [
 
     ],
     [
-
+        "id" => 3,
         "title" => "Untitled Avengers",
         "release_date" => "2019-04-24",
         "poster_path" => "https://image.tmdb.org/t/p/w500/aMETsaNNcDc6g5ZatQtVbySnSaA.jpg",
@@ -26,7 +26,7 @@ return [
 
     ],
     [
-
+        "id" => 4,
         "title" => "Shazam!",
         "release_date" => "2019-04-05",
         "poster_path" => "https://image.tmdb.org/t/p/w500/yUOJHa9XmB1H0iYodG9Kb3YCc9T.jpg",
@@ -34,7 +34,7 @@ return [
 
     ],
     [
-
+        "id" => 5,
         "title" => "X-Men: Dark Phoenix",
         "release_date" => "2019-02-14",
         "poster_path" => "https://image.tmdb.org/t/p/w500/6qmsupE0opYPIaBGe7T5D2FBzLs.jpg",
@@ -42,7 +42,7 @@ return [
 
     ],
     [
-
+        "id" => 6,
         "title" => "Journey 3: From the Earth to the Moon",
         "release_date" => "2018-12-31",
         "poster_path" => "https://image.tmdb.org/t/p/w500/98tbNloMBztAVnWpAznKKVUdi2O.jpg",
@@ -50,7 +50,7 @@ return [
 
     ],
     [
-
+        "id" => 7,
         "title" => "Aquaman",
         "release_date" => "2018-12-19",
         "poster_path" => "https://image.tmdb.org/t/p/w500/sshNRCbtU2ON8SiWLycQzr05doX.jpg",
@@ -58,7 +58,7 @@ return [
 
     ],
     [
-
+        "id" => 8,
         "title" => "Mission: Impossible - Fallout",
         "release_date" => "2018-07-26",
         "poster_path" => "https://image.tmdb.org/t/p/w500/A2W75CVz9l8gEeWhQiiftlOCkgi.jpg",
@@ -66,7 +66,7 @@ return [
 
     ],
     [
-
+        "id" => 9,
         "title" => "Jurassic World: Fallen Kingdom",
         "release_date" => "2018-06-01",
         "poster_path" => "https://image.tmdb.org/t/p/w500/ln6d5Okr6VK5vfQVobJTiYxeD0l.jpg",
@@ -74,7 +74,7 @@ return [
 
     ],
     [
-
+        "id" => 10,
         "title" => "Solo: A Star Wars Story",
         "release_date" => "2018-05-23",
         "poster_path" => "https://image.tmdb.org/t/p/w500/uJ6OnE3CzGWq6buLINAbdBqa0gV.jpg",
@@ -82,7 +82,7 @@ return [
 
     ],
     [
-
+        "id" => 11,
         "title" => "Deadpool 2",
         "release_date" => "2018-05-16",
         "poster_path" => "https://image.tmdb.org/t/p/w500/qjiPP4FhTV3UAGa1Dbf2qEqTvu5.jpg",
@@ -90,7 +90,7 @@ return [
 
     ],
     [
-
+        "id" => 12,
         "title" => "Avengers: Infinity War",
         "release_date" => "2018-04-25",
         "poster_path" => "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",

@@ -48,3 +48,16 @@ Route::get('/comics/{param}', function ($id) {
 
     return view('detail_comic', compact('comic'));
 })->name('detail-comic');
+
+
+Route::get('/movies/{param}', function ($id) {
+    $movies = config('movies');
+
+    foreach ($movies as $item) {
+        if ($item['id'] == $id) {
+            $movie = $item;
+        }
+    }
+
+    return view('detail_movie', compact('movie'));
+})->name('detail-movie');
