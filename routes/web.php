@@ -40,6 +40,8 @@ Route::get('/games', function () {
 Route::get('/comics/{param}', function ($id) {
     $comics = config('comics');
 
+    $comic = $comics[0];
+
     foreach ($comics as $item) {
         if ($item['id'] == $id) {
             $comic = $item;
@@ -52,6 +54,8 @@ Route::get('/comics/{param}', function ($id) {
 
 Route::get('/movies/{param}', function ($id) {
     $movies = config('movies');
+
+    $movie = $movies[0];
 
     foreach ($movies as $item) {
         if ($item['id'] == $id) {
