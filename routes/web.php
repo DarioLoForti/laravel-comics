@@ -36,3 +36,15 @@ Route::get('/games', function () {
     $games = config('games');
     return view('games', compact('games'));
 })->name('games');
+
+Route::get('/comics/{param}', function ($id) {
+    $comics = config('comics');
+
+    foreach ($comics as $item) {
+        if ($item['id'] == $id) {
+            $comic = $item;
+        }
+    }
+
+    return view('detail_comic', compact('comic'));
+})->name('detail-comic');
