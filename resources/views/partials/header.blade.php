@@ -28,8 +28,8 @@
                             href="{{ route('games') }}">Games</a>
                     </li>
                     <li>
-                        <a class="{{ Route::currentRoutename() === 'cOllectibles' ? 'navtext' : '' }}"
-                            href="#">COllectibles</a>
+                        <a class="{{ Route::currentRoutename() === 'collectibles' ? 'navtext' : '' }}"
+                            href="#">Collectibles</a>
                     </li>
                     <li>
                         <a class="{{ Route::currentRoutename() === 'videos' ? 'navtext' : '' }}"
